@@ -7,7 +7,7 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data — keep large/raw pulls out of git; commit small labeled sets only
+# Data keep large/raw pulls out of git; commit small labeled sets only
 data/*
 !data/README.md
 *.tif
