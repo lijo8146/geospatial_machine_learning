@@ -1,4 +1,4 @@
-# Phase 1 · Foundations — pyproj + rtree
+# Phase 1 · Foundations pyproj and rtree
 
 Low time investment, do this first. These are "necessary correctness" tools —
 the plumbing everything else (geopandas, TorchGeo, H3) sits on top of.
