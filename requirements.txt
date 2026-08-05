@@ -1,0 +1,31 @@
+# Phase 1 foundations
+pyproj>=3.7
+rtree>=1.4
+geopandas
+shapely
+
+# Phase 2 PyTorch + TorchGeo
+torch>=2.2
+torchgeo>=0.9
+
+# Phase 3 Earth embeddings
+earthengine-api
+geemap
+geotessera
+
+# Phase 4 indexing and visualization
+h3
+pydeck
+datashader
+holoviews
+
+# Phase 5 semantic search
+open_clip_torch
+pillow
+
+# General
+jupyterlab
+numpy
+pandas
+matplotlib
+scikit-learn
