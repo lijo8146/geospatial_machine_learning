@@ -1,15 +1,8 @@
-# Phase 3 · Earth Embeddings AlphaEarth and GeoTessera
+# Embedding evaluation
 
-Test whether pretrained embeddings can get you a usable classifier with a
-fraction of the labeling effort a from-scratch model would need and get
-firsthand evidence on the open-weights-vs-proprietary question rather than an
-abstract opinion about it.
+Work through these lessons in order. Each includes worked code, an independent exercise, an expandable solution and reflection.
 
-- `01_alphaearth_classifier.ipynb` small classifier on AlphaEarth's 64-dim
-  embeddings (Google Earth Engine)
-- `02_geotessera_comparison.ipynb` the same exercise on TESSERA's 128-dim
-  embeddings (open weights, Cambridge)
+- [01_alphaearth_classifier](01_alphaearth_classifier.ipynb)
+- [02_geotessera_comparison](02_geotessera_comparison.ipynb)
 
-Run both on the *same* labeled points so the comparison is apples-to-apples.
-Check GeoTessera's coverage for your area before starting notebook 02 
-unlike AlphaEarth, coverage isn't automatically global.
+Start with the synthetic practice path. Optional external labs are identified explicitly. See the [course guide](../README.md), [real-data lab](../docs/REAL_DATA.md), and [learner workbook](../docs/WORKBOOK.md).

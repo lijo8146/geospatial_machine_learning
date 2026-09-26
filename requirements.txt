@@ -1,31 +1,18 @@
-# Phase 1 foundations
-pyproj>=3.7
-rtree>=1.4
-geopandas
-shapely
-
-# Phase 2 PyTorch + TorchGeo
-torch>=2.2
-torchgeo>=0.9
-
-# Phase 3 Earth embeddings
-earthengine-api
-geemap
-geotessera
-
-# Phase 4 indexing and visualization
-h3
-pydeck
-datashader
-holoviews
-
-# Phase 5 semantic search
-open_clip_torch
-pillow
-
-# General
-jupyterlab
-numpy
-pandas
-matplotlib
-scikit-learn
+# Default offline teaching path, Python 3.11 or 3.12
+numpy>=1.26,<3
+pandas>=2.2,<3
+matplotlib>=3.8,<4
+geopandas>=1,<2
+shapely>=2,<3
+pyproj>=3.6,<4
+rtree>=1.3,<2
+rasterio>=1.3,<2
+scikit-learn>=1.4,<2
+h3>=4,<5
+pydeck>=0.9,<1
+datashader>=0.16,<1
+pillow>=10,<13
+jupyterlab>=4,<5
+nbclient>=0.10,<1
+nbformat>=5.10,<6
+ipykernel>=6,<8

@@ -1,0 +1,8 @@
+# Optional labs. Use Python 3.12 for the full series.
+-r requirements.txt
+torch>=2.2,<3
+torchgeo>=0.9,<0.10
+open_clip_torch>=2.24,<4
+huggingface_hub>=0.24,<2
+earthengine-api>=1,<2
+geotessera>=0.6,<1

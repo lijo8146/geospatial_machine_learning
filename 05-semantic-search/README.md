@@ -1,11 +1,7 @@
-# Phase 5 · Semantic Search — OpenCLIP / RemoteCLIP
+# Semantic retrieval
 
-Capstone phase ties the rest of the stack into one query-able tool, the
-closest analog in this series to a real decision-support layer.
+Work through these lessons in order. Each includes worked code, an independent exercise, an expandable solution and reflection.
 
-- `01_remoteclip_retrieval.ipynb` natural-language text-to-image retrieval
-  over your Front Range tile set
+- [01_remoteclip_retrieval](01_remoteclip_retrieval.ipynb)
 
-Try queries the model should succeed on and a few it probably won't the
-failures are as informative as the successes for understanding what this
-kind of tool is and isn't good for.
+Start with the synthetic practice path. Optional external labs are identified explicitly. See the [course guide](../README.md), [real-data lab](../docs/REAL_DATA.md), and [learner workbook](../docs/WORKBOOK.md).

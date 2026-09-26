@@ -1,23 +1,16 @@
-# Environments
 venv/
 .venv/
 __pycache__/
 *.pyc
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Data keep large/raw pulls out of git; commit small labeled sets only
 data/*
 !data/README.md
+!data/labels.example.csv
+runs/
 *.tif
 *.tiff
 *.npy
-
-# Earth Engine / credentials
+*.pt
+.env
 .config/earthengine/
-*.json
-!requirements.txt
-
-# OS
 .DS_Store

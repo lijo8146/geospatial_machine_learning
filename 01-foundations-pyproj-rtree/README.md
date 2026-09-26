@@ -1,12 +1,8 @@
-# Phase 1 · Foundations pyproj and rtree
+# Foundations
 
-Low time investment, do this first. These are "necessary correctness" tools —
-the plumbing everything else (geopandas, TorchGeo, H3) sits on top of.
+Work through these lessons in order. Each includes worked code, an independent exercise, an expandable solution and reflection.
 
-- `01_pyproj_reprojection.ipynb` — reproject two mismatched Colorado datasets
-  by hand
-- `02_rtree_spatial_index.ipynb` — build a spatial index over watershed
-  boundaries and query it
+- [01_pyproj_reprojection](01_pyproj_reprojection.ipynb)
+- [02_rtree_spatial_index](02_rtree_spatial_index.ipynb)
 
-Goal for this phase: recognize a CRS mismatch or a slow spatial join when you
-see one later, even if a higher-level library is usually handling it for you.
+Start with the synthetic practice path. Optional external labs are identified explicitly. See the [course guide](../README.md), [real-data lab](../docs/REAL_DATA.md), and [learner workbook](../docs/WORKBOOK.md).
