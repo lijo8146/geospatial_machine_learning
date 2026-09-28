@@ -1,0 +1,4 @@
+# Lessons 8.3–8.4: base course plus PyTorch (CPU is sufficient).
+# For CPU-specific wheels, see the notebook installation instructions.
+-r requirements.txt
+torch>=2.2,<3

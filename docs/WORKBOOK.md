@@ -14,5 +14,11 @@ Copy this page into your notes. For each lesson write a prediction before runnin
 | 4.3 | Canvas sizes, cold/warm times and memory | What information was aggregated away? |
 | 5.1 | Queries, ranked candidates and judgments | Can a best match still be irrelevant? |
 | 5.2 | Filtered/unfiltered retrieval metrics and one traced claim | Why can a valid citation still support a false answer? |
+| 6.1 | Change map, fixed-cohort sensitivity table and evaluation design | Which apparent changes could be observation artifacts? |
+| 7.1 | Tree figure, traced path and complexity comparison | Why can a deeper tree generalize worse? |
+| 8.1 | Forward-pass explanation, loss curves and controlled experiment | Why does lower training loss not guarantee better predictions? |
+| 8.2 | Manual response, feature maps and shuffle diagnostic | Why can equal mean brightness hide different patterns? |
+| 8.3 | Gate calculation, chronological split audit and baseline comparison | Why is rolling one-step prediction not a multi-step forecast? |
+| 8.4 | Attention calculation, positional ablation and annotated heatmap | Why are attention weights not causal explanations? |
 
 Before the capstone, explain CRS, spatial leakage, baseline, embeddings, cosine similarity and provenance without looking at the glossary. Revisit any lesson where you can run code but cannot explain its output.
