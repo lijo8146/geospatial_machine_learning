@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 ROOT = Path(__file__).resolve().parent
-OUT = ROOT / 'data' / 'generated'
+OUT = ROOT/'data'/'generated'
 OUT.mkdir(parents=True, exist_ok=True)
 
 def points(n=240, seed=42):
@@ -58,7 +58,7 @@ def h3_summary(frame, resolution):
 def raster_fixture():
     import rasterio
     from rasterio.transform import from_origin
-    path = OUT / 'synthetic_rgb.tif'
+    path = OUT/'synthetic_rgb.tif'
     rng=np.random.default_rng(42)
     image=rng.integers(1,10000,(3,256,256),dtype=np.uint16)
     with rasterio.open(path,'w',driver='GTiff',height=256,width=256,count=3,

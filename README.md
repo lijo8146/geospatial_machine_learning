@@ -1,12 +1,12 @@
 # Geospatial and Machine Learning: a guided learning series
 
-Nine lessons move from coordinate systems to image retrieval through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow, not merely run a model.
+Nine lessons move from coordinate systems to image retrieval through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow.
 
 **Start here:** know Python variables, functions, arrays and DataFrames. No deep-learning background is required. Plan roughly 10–15 hours for worked lessons and exercises, plus 4–8 hours for the real-data capstone and downloads.
 
 ## Two learning paths
 
-The **practice path** runs all nine notebooks without credentials or model downloads after installation. It uses explicitly synthetic points, polygons, rasters and vectors. These teach mechanics; they provide no evidence about Colorado conditions or real foundation-model performance.
+The **practice path** runs all nine notebooks without credentials or model downloads after installation. It uses explicitly synthetic points, polygons, rasters and vectors. These teach mechanics.
 
 The **real-data labs** add TorchGeo pretrained inference, AlphaEarth/TESSERA extraction and RemoteCLIP retrieval. They require extra packages, public input data, model downloads and (for Earth Engine) your own registered project. Follow [the real-data guide](docs/REAL_DATA.md). They are optional for the practice path but required for a real-data capstone.
 
@@ -44,7 +44,7 @@ Each lesson includes objectives, concepts, runnable worked examples, an independ
 
 Use the [learner workbook](docs/WORKBOOK.md), [capstone brief and rubric](docs/CAPSTONE.md), and [instructor guide](docs/INSTRUCTOR.md). [Concept glossary](docs/GLOSSARY.md) and [source references](docs/REFERENCES.md) support review.
 
-Generated practice products live in `data/generated/`; real observations stay in `data/real/`. Never mix the two. Notebook code displays the core methods; `course.py` contains small shared fixtures and evaluation helpers worth reading.
+Generated practice products live in `data/generated/`; real observations stay in `data/real/`. Notebook code displays the core methods; `course.py` contains small shared fixtures and evaluation helpers worth reading.
 
 ## Verify your environment
 
