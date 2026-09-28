@@ -23,3 +23,8 @@ Required evidence:
 | Communication | 15 | Readable maps, count/scale legends and clear explanation |
 
 Mastery target: 80/100 with no unsupported real-world conclusions and no train/test spatial overlap. Before sharing, ask another learner to reproduce one result from a fresh kernel. End the report with what you learned, what remains unknown and the next observation needed to resolve it.
+
+
+## Optional standalone extension: watershed research assistant
+
+After lesson 5.2, build a separate repository for document ingestion, persistent indexing, a cited question-answer interface and eventual deployment. This is an optional follow-on, not a replacement for the course rubric. Start with a small public report corpus and preserve source URLs, licenses, page numbers, dates and geographic scope. Compare lexical and dense retrieval on held-out labeled questions. Evaluate retrieval recall, claim support, citation validity, place/date correctness and abstention separately. Include wrong-basin, conflicting-date and absent-evidence cases. Publish reproduction instructions and limitations before expanding the corpus.

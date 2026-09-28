@@ -13,5 +13,6 @@ Copy this page into your notes. For each lesson write a prediction before runnin
 | 4.2 | HTML map and tooltip screenshot | What claim could a viewer misread? |
 | 4.3 | Canvas sizes, cold/warm times and memory | What information was aggregated away? |
 | 5.1 | Queries, ranked candidates and judgments | Can a best match still be irrelevant? |
+| 5.2 | Filtered/unfiltered retrieval metrics and one traced claim | Why can a valid citation still support a false answer? |
 
 Before the capstone, explain CRS, spatial leakage, baseline, embeddings, cosine similarity and provenance without looking at the glossary. Revisit any lesson where you can run code but cannot explain its output.

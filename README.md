@@ -1,12 +1,12 @@
 # Geospatial and Machine Learning: a guided learning series
 
-Nine lessons move from coordinate systems to image retrieval through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow.
+Ten lessons move from coordinate systems to image retrieval and grounded text answers through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow.
 
 **Start here:** know Python variables, functions, arrays and DataFrames. No deep-learning background is required. Plan roughly 10–15 hours for worked lessons and exercises, plus 4–8 hours for the real-data capstone and downloads.
 
 ## Two learning paths
 
-The **practice path** runs all nine notebooks without credentials or model downloads after installation. It uses explicitly synthetic points, polygons, rasters and vectors. These teach mechanics.
+The **practice path** runs all ten notebooks without credentials or model downloads after installation. It uses explicitly synthetic points, polygons, rasters and vectors. These teach mechanics.
 
 The **real-data labs** add TorchGeo pretrained inference, AlphaEarth/TESSERA extraction and RemoteCLIP retrieval. They require extra packages, public input data, model downloads and (for Earth Engine) your own registered project. Follow [the real-data guide](docs/REAL_DATA.md). They are optional for the practice path but required for a real-data capstone.
 
@@ -37,6 +37,7 @@ On macOS/Linux: `python3.12 -m venv .venv` then `source .venv/bin/activate`; rem
 | [4.2 pydeck](04-indexing-visualization/02_pydeck_hexlayer.ipynb) | What does a map actually claim? | H3 map with score/count tooltips |
 | [4.3 Datashader](04-indexing-visualization/03_datashader_fullres.ipynb) | What can a pixel summarize? | One-million-record rendering and timing |
 | [5.1 RemoteCLIP](05-semantic-search/01_remoteclip_retrieval.ipynb) | What does similarity prove? | Ranked results and relevance critique |
+| [5.2 Geospatial RAG](05-semantic-search/02_geospatial_rag.ipynb) | Can retrieved evidence support an answer? | Place/date filtering, retrieval metrics and citation review |
 
 Each lesson includes objectives, concepts, runnable worked examples, an independent exercise, an expandable solution, a check-yourself prompt and a real-data extension. Predict outputs before running. Try the exercise before reading its solution. Record your own results and limitations.
 
