@@ -20,5 +20,6 @@ Copy this page into your notes. For each lesson write a prediction before runnin
 | 8.2 | Manual response, feature maps and shuffle diagnostic | Why can equal mean brightness hide different patterns? |
 | 8.3 | Gate calculation, chronological split audit and baseline comparison | Why is rolling one-step prediction not a multi-step forecast? |
 | 8.4 | Attention calculation, positional ablation and annotated heatmap | Why are attention weights not causal explanations? |
+| 9.1 | Budget audit, paired learning curves and sampling recommendation | Can a confidently wrong model overlook an important region? |
 
 Before the capstone, explain CRS, spatial leakage, baseline, embeddings, cosine similarity and provenance without looking at the glossary. Revisit any lesson where you can run code but cannot explain its output.

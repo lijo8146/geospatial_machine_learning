@@ -39,10 +39,11 @@ Times below are suggested teaching allocations, not measured completion times. E
 | [8.2 Simple CNN](../08-neural-networks/02_simple_cnn.ipynb) | What does pixel arrangement reveal? | Hand convolution, feature maps and controlled validation experiment | 90 min | Arrays and lesson 8.1 concepts |
 | [8.3 Simple LSTM](../08-neural-networks/03_simple_lstm.ipynb) | Does remembering history help? | Gate update, split audit and baseline comparison | 90–120 min | Lesson 8.1; PyTorch installed |
 | [8.4 Simple attention](../08-neural-networks/04_simple_attention.ipynb) | Which observations does attention combine? | Hand calculation, heatmap and positional ablation | 90–120 min | Lessons 8.1/8.3; PyTorch |
+| [9.1 Active learning](../09-active-learning/01_active_learning.ipynb) | Where should we spend 50 labels? | Equal-budget curves, coverage map and recommendation | 90–120 min | Basic classification; lesson 7.1 helpful |
 
 ## What is runnable, and what requires preparation?
 
-- **Default practice:** all sixteen lessons have a synthetic/offline path after environment installation; lessons 8.3–8.4 additionally require PyTorch (`requirements-lstm.txt`). These paths teach mechanics and evaluation; they do not establish performance on real environmental data.
+- **Default practice:** all seventeen lessons have a synthetic/offline path after environment installation; lessons 8.3–8.4 additionally require PyTorch (`requirements-lstm.txt`). These paths teach mechanics and evaluation; they do not establish performance on real environmental data.
 - **Optional model/data labs:** TorchGeo, Earth embeddings and RemoteCLIP require the preparation described in the [real-data guide](REAL_DATA.md). RAG generation requires a separately installed local Ollama model; its default path retrieves evidence and constructs prompts without generating model answers.
 - **Change-detection extension:** the default lesson runs completely. Actual satellite analysis is a guided extension requiring learner-supplied imagery and independent labels; it is not a bundled real-scene demonstration.
 - **Validation:** see [lesson 6.1 validation](CHANGE_DETECTION_VALIDATION.md). Classroom learning gains have not yet been evaluated.
@@ -68,7 +69,6 @@ These are proposals, not completed lessons:
 
 | Proposed extension | Student decision | Assessable artifact |
 |---|---|---|
-| Active learning | Which locations deserve the next labeling effort? | Random versus uncertainty sampling under an equal label budget |
 | Transfer across places | Where does a trained model stop working? | Held-out regional performance and failure analysis |
 | Multimodal investigation | What do imagery, measurements and reports jointly support? | Mapped evidence brief with claim-by-claim provenance |
 

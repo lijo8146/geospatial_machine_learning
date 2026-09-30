@@ -30,3 +30,6 @@ Assess reasoning and reproducibility rather than attractive maps or high scores.
 
 
 **Attention option (lesson 8.4, 90–120 minutes):** calculate three-token attention before showing the learned heatmap. Contrast permutation-invariant pooling without positions with a positional model. Assess chronological integrity and baseline interpretation; attention weights are mixing coefficients, not causal attributions.
+
+
+**Active-learning option (lesson 9.1, 90–120 minutes):** ask learners to allocate a 50-label budget. Audit that acquisition never sees unqueried labels or test results. Compare five paired seeds and geographic coverage, then assess a justified sampling recommendation. Distinguish simulator-only error audits from information available to field sampling.

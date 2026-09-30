@@ -1,14 +1,14 @@
 # Geospatial and Machine Learning: a guided learning series
 
-Sixteen lessons move from coordinate systems to image retrieval and grounded text answers through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow.
+Seventeen lessons move from coordinate systems to image retrieval and grounded text answers through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow.
 
 **For educators:** [Explore the teaching showcase](docs/FOR_EDUCATORS.md)—questions, student artifacts, suggested teaching times, and an assessable change-detection demonstration. These ideas can complement an existing curriculum.
 
-**Start here:** know Python variables, functions, arrays and DataFrames. No deep-learning background is required. Plan roughly 21–28 hours for worked lessons and exercises, plus 4–8 hours for the real-data capstone and downloads.
+**Start here:** know Python variables, functions, arrays and DataFrames. No deep-learning background is required. Plan roughly 23–30 hours for worked lessons and exercises, plus 4–8 hours for the real-data capstone and downloads.
 
 ## Two learning paths
 
-The **practice path** uses synthetic data without credentials or model downloads. Fourteen notebooks use the base environment; lessons 8.3–8.4 additionally require PyTorch (see their setup cells or `requirements-lstm.txt`). All sixteen run offline once their packages are installed. It uses explicitly synthetic points, polygons, rasters and vectors. These teach mechanics.
+The **practice path** uses synthetic data without credentials or model downloads. Fifteen notebooks use the base environment; lessons 8.3–8.4 additionally require PyTorch (see their setup cells or `requirements-lstm.txt`). All seventeen run offline once their packages are installed. It uses explicitly synthetic points, polygons, rasters and vectors. These teach mechanics.
 
 The **real-data labs** add TorchGeo pretrained inference, AlphaEarth/TESSERA extraction and RemoteCLIP retrieval. They require extra packages, public input data, model downloads and (for Earth Engine) your own registered project. Follow [the real-data guide](docs/REAL_DATA.md). They are optional for the practice path but required for a real-data capstone.
 
@@ -46,6 +46,7 @@ On macOS/Linux: `python3.12 -m venv .venv` then `source .venv/bin/activate`; rem
 | [8.2 Simple CNN](08-neural-networks/02_simple_cnn.ipynb) | What does pixel arrangement reveal? | Manual convolution, learned feature maps, grouped evaluation and shuffle diagnostic |
 | [8.3 Simple LSTM](08-neural-networks/03_simple_lstm.ipynb) | Does signal history improve the next prediction? | Gate demonstration, chronological windows, baseline comparison and validation experiment |
 | [8.4 Simple attention](08-neural-networks/04_simple_attention.ipynb) | Which earlier observations does attention combine? | Worked attention, heatmap, positional ablation and matched forecasting baselines |
+| [9.1 Active learning](09-active-learning/01_active_learning.ipynb) | Which locations should we label next? | Equal-budget learning curves, acquisition maps and sampling recommendation |
 
 Each lesson includes objectives, concepts, runnable worked examples, an independent exercise, an expandable solution, a check-yourself prompt and a real-data extension. Predict outputs before running. Try the exercise before reading its solution. Record your own results and limitations.
 
