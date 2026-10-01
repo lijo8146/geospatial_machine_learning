@@ -2,7 +2,7 @@
 
 [8.1 How does a small ANN learn?](01_simple_ann.ipynb)
 
-A NumPy implementation of a 2 → 8 → 1 network with forward propagation, stable binary cross-entropy, backpropagation and gradient descent. Includes training-only scaling, validation checkpoint selection, held-out evaluation, visual learning curves and boundaries, an independent experiment and a 10-point rubric. Synthetic data only; no downloads or extra dependencies. Allow 75–90 minutes.
+A NumPy implementation of a 2 - 8 - 1 network with forward propagation, stable binary cross-entropy, backpropagation and gradient descent. Includes training-only scaling, validation checkpoint selection, held-out evaluation, visual learning curves and boundaries, an independent experiment and a 10-point rubric. Synthetic data only; no downloads or extra dependencies. Allow 75–90 minutes.
 
 Validation (2026-09-28): all default cells executed in a fresh kernel; numerical gradient checks passed for both weight matrices and both bias arrays; local navigation links passed; learning-curve and boundary figures were visually reviewed. Synthetic held-out balanced accuracy was 0.887 for the ANN and 0.500 for both baselines. These results illustrate the intentionally nonlinear fixture, not general model superiority. No full-course rerun or real-data validation was performed.
 
