@@ -2,9 +2,9 @@
 
 Seventeen lessons move from coordinate systems to image retrieval and grounded text answers through a Colorado Front Range Fire & Water Explorer learning project. The aim is to explain and evaluate a workflow.
 
-**For educators:** [Explore the teaching showcase](docs/FOR_EDUCATORS.md)—questions, student artifacts, suggested teaching times, and an assessable change-detection demonstration. These ideas can complement an existing curriculum.
+**For educators:** [Explore the teaching showcase](docs/FOR_EDUCATORS.md) for questions, student artifacts, suggested teaching times, and an assessable change-detection demonstration. These ideas can complement an existing curriculum.
 
-**Start here:** know Python variables, functions, arrays and DataFrames. No deep-learning background is required. Plan roughly 23–30 hours for worked lessons and exercises, plus 4–8 hours for the real-data capstone and downloads.
+**Start here:** know Python variables, functions, arrays and DataFrames. Plan roughly 23–30 hours for worked lessons and exercises, plus 4–8 hours for the real-data capstone and downloads.
 
 ## Two learning paths
 
